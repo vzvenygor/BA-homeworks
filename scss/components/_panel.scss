@@ -1,0 +1,32 @@
+.pannel {
+  &__wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.header {
+  .wrapper {
+    .logo a {
+      //
+    }
+  }
+
+  &.active {
+    .header__burger {
+      display: block;
+    }
+  }
+}
+
+.link-header-wrapper-gh-fgh-fgh-fg-hfg-h {
+  //
+}
+
+.test {
+  color: red;
+}
+
+.test {
+  color: green;
+}
