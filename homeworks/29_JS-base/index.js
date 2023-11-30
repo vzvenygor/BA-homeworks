@@ -3,7 +3,7 @@
 const userName = prompt("Як тебе звати?");
 console.log(`Привіт, ${userName}!`);
 
-const year = +prompt(`${year}, введи свій рік народження`);
+const year = +prompt(`${userName}, введи свій рік народження`);
 const CURRENT_YEAR = 2023;
 let age = CURRENT_YEAR - year;
 console.log(`Гм, значить тобі ${age} років`);
